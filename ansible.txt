@@ -1,0 +1,34 @@
+/bin/bash -c "$(curl -fsSL
+
+https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
+
+)"
+brew update
+brew install ansible
+#Below line needs to be dynamic
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/SaeedM/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"\n
+brew install ansible
+brew install neovim
+brew install stow
+#brew install --cask visual-studio-code #Open Source ftw
+brew install --cask vscodium
+brew install --cask rectangle
+brew install --cask notion
+brew install --cask obsidian
+brew install rust
+brew install tree
+brew install pipx
+brew install git
+brew install tmux
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
+brew install neovim
+vni
+HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
+sudo ln -s /opt/homebrew/etc/odbcinst.ini /etc/odbcinst.ini
+sudo ln -s /opt/homebrew/etc/odbc.ini /etc/odbc.ini
+
+
+Adding SSH key to github or somehow Automating this setup?
+How to manage Vs config and  Packages,
+nvim config and auto setup somehow.
