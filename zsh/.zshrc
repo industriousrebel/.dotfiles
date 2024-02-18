@@ -11,8 +11,7 @@ export PATH=$PATH:$ANDROID_HOME/emulator
 export PATH=$PATH:$ANDROID_HOME/platform-tools
 export JAVA_HOME="/Library/Java/JavaVirtualMachines/zulu-11.jdk/Contents/Home"
 ZSH_THEME="robbyrussell"
-plugins=(git
-	vi-mode)
+plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 if [[ -n $SSH_CONNECTION ]]; then
@@ -25,3 +24,5 @@ alias vi='nvim'
 alias vim='nvim'
 
 PATH=~/.console-ninja/.bin:$PATH
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh

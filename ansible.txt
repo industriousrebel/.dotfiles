@@ -20,10 +20,11 @@ brew install tree
 brew install pipx
 brew install git
 brew install tmux
+brew install fzf
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
 brew install neovim
-vni
 HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
 sudo ln -s /opt/homebrew/etc/odbcinst.ini /etc/odbcinst.ini
 sudo ln -s /opt/homebrew/etc/odbc.ini /etc/odbc.ini

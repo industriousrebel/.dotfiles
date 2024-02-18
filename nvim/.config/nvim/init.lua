@@ -1,6 +1,7 @@
 if vim.g.vscode then
     -- VSCode config
-    require("vscode")
+    vim.cmd[[source $HOME/.config/nvim/vscode.vim]]
+--    require("vscode")
 else
     -- ordinary Neovim
 	require("industriousrebel")
