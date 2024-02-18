@@ -9,7 +9,6 @@
     "editor.cursorBlinking": "solid",
     "terminal.external.osxExec": "kitty.app",
     "editor.minimap.enabled": false,
-    "workbench.activityBar.visible": false,
     "window.menuBarVisibility": "toggle",
     "python.dataScience.alwaysTrustNotebooks": true,
     "terminal.integrated.shell.linux": "/bin/zsh", 
@@ -594,5 +593,7 @@
         "type": "command",
         "command": "workbench.action.toggleZenMode"
       }
-    ]
+    ],
+    "terminal.integrated.env.osx": {},
+    "workbench.activityBar.location": "hidden"
   }
