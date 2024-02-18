@@ -6,7 +6,7 @@
     {
       "key": "ctrl+e",
       "command": "-actions.findWithSelection"
-    },
+    }, 
     {
       "key": "ctrl+e",
       "command": "workbench.view.explorer"
@@ -167,5 +167,9 @@
       "key": "ctrl+f",
       "command": "-vscode-neovim.ctrl-f",
       "when": "editorTextFocus && neovim.ctrlKeysNormal && neovim.init && neovim.mode != 'insert'"
+    },
+    {
+      "key": "shift+cmd+b",
+      "command": "workbench.action.toggleActivityBarVisibility"
     }
 ]
