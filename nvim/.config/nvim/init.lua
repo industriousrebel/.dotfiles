@@ -1,6 +1,6 @@
 if vim.g.vscode then
     -- VSCode config
-    vim.cmd[[source $HOME/.config/nvim/vscode.vim]]
+    vim.cmd[[source $HOME/.config/nvim/lua/vscode/init.vim]]
 --    require("vscode")
 else
     -- ordinary Neovim
