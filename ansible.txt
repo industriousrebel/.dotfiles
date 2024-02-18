@@ -29,7 +29,5 @@ HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
 sudo ln -s /opt/homebrew/etc/odbcinst.ini /etc/odbcinst.ini
 sudo ln -s /opt/homebrew/etc/odbc.ini /etc/odbc.ini
 
-
-Adding SSH key to github or somehow Automating this setup?
-How to manage Vs config and  Packages,
-nvim config and auto setup somehow.
+#Run the below cmd to enable auto scroll in vscodium
+defaults write com.vscodium ApplePressAndHoldEnabled -bool false

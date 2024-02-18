@@ -22,6 +22,7 @@ fi
 
 alias vi='nvim'
 alias vim='nvim'
+alias code='codium'
 
 PATH=~/.console-ninja/.bin:$PATH
 
