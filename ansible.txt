@@ -21,6 +21,7 @@ brew install pipx
 brew install git
 brew install tmux
 brew install fzf
+brew install stow
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
