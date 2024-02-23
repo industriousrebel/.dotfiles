@@ -30,3 +30,5 @@ NeoVim LSP or commands are slowing down vscode otherwise it's a great setup.
 | Vscode | cmd + b | Toggle side bar. |
 | Vscode | cmd+shift+b | Toggle Activity bar |
 | Chrome | cmd + L | Go to Search Bar |
+| NeoVim | gd | go to definition |
+| NeoVim | ctrl+o | go back after gd |
