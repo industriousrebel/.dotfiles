@@ -13,7 +13,7 @@
     "python.dataScience.alwaysTrustNotebooks": true,
     "terminal.integrated.shell.linux": "/bin/zsh", 
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Default High Contrast",
+    "workbench.colorTheme": "Abyss",
     "workbench.iconTheme": "vscode-icons",
     "console-ninja.featureSet": "Community",
     "codium.codeCompletion.enable": true,
@@ -595,5 +595,7 @@
       }
     ],
     "terminal.integrated.env.osx": {},
-    "workbench.activityBar.location": "hidden"
+    "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
   }
