@@ -1,6 +1,4 @@
 OSX VSCODE NVIM setup.
-NeoVim LSP or commands are slowing down vscode otherwise it's a great setup.
-
 | Type | Command | Explanation |
 | ---- | ---- | ---- |
 | NeoVim | d$/0 | Delete from here to end of the line |
