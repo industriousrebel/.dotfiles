@@ -597,5 +597,11 @@
     "terminal.integrated.env.osx": {},
     "[javascript]": {
       "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.enable": {
+      "markdown": "true"
+    },
+    "github.copilot.advanced": {
+    
     }
   }

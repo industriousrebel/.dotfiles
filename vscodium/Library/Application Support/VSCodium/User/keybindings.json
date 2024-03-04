@@ -149,11 +149,6 @@
       "command": "-workbench.action.togglePanel"
     },
     {
-      "key": "shift+k",
-      "command": "editor.action.showHover",
-      "when": "editorTextFocus"
-    },
-    {
       "key": "ctrl+k ctrl+i",
       "command": "-editor.action.showHover",
       "when": "editorTextFocus"
@@ -171,5 +166,10 @@
     {
       "key": "shift+cmd+b",
       "command": "workbench.action.toggleActivityBarVisibility"
+    },
+    {
+      "key": "cmd+i",
+      "command": "-github.copilot.terminal.suggestCommand",
+      "when": "terminalFocus"
     }
 ]
