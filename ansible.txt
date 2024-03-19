@@ -25,6 +25,12 @@ brew install tmux
 brew install fzf
 brew install stow
 
+#Pipx and poetry
+brew install pipx
+pipx ensurepath
+sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
+pipx install poetry
+
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
 brew install neovim
