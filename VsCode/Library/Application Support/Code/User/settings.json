@@ -8,12 +8,11 @@
     "python.terminal.activateEnvironment": false,
     "editor.cursorBlinking": "solid",
     "terminal.external.osxExec": "kitty.app",
-    "editor.minimap.enabled": false,
     "window.menuBarVisibility": "toggle",
     "python.dataScience.alwaysTrustNotebooks": true,
     "terminal.integrated.shell.linux": "/bin/zsh", 
     "window.zoomLevel": 1,
-    "workbench.colorTheme": "Abyss",
+    "workbench.colorTheme": "Default High Contrast",
     "workbench.iconTheme": "vscode-icons",
     "console-ninja.featureSet": "Community",
     "codium.codeCompletion.enable": true,
@@ -603,5 +602,14 @@
     },
     "github.copilot.advanced": {
     
+    },
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "files.exclude": {
+      "**/Thumbs.db": false
+    },
+    "[jsonc]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
     }
   }

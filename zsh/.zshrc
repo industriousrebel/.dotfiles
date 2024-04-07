@@ -22,8 +22,10 @@ fi
 
 alias vi='nvim'
 alias vim='nvim'
-alias code='codium'
 
 PATH=~/.console-ninja/.bin:$PATH
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# Created by `pipx` on 2024-03-19 21:04:12
+export PATH="$PATH:/Users/industriousrebel/.local/bin"
