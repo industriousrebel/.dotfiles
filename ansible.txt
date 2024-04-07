@@ -1,3 +1,4 @@
+OSX setup
 /bin/bash -c "$(curl -fsSL
 https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh
 )"
@@ -9,9 +10,7 @@ brew install ansible
 brew install neovim
 brew install stow
 #brew install --cask visual-studio-code #Open Source ftw
-brew install --cask vscodium
 brew install --cask rectangle
-brew install --cask notion
 brew install --cask obsidian
 brew install --cask dbeaver-community
 brew install --cask kitty
@@ -22,6 +21,13 @@ brew install git
 brew install tmux
 brew install fzf
 brew install stow
+brew install pandoc
+
+#Pipx and poetry
+brew install pipx
+pipx ensurepath
+sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
+pipx install poetry
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
