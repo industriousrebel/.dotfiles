@@ -36,6 +36,9 @@ sudo ln -s /opt/homebrew/etc/odbcinst.ini /etc/odbcinst.ini
 sudo ln -s /opt/homebrew/etc/odbc.ini /etc/odbc.ini
 
 #Run the below cmd to enable auto scroll in vscodium
-defaults write com.visualstudio.code ApplePressAndHoldEnabled -bool false
-defaults write com.obsidian ApplePressAndHoldEnabled -bool false
+defaults write -g ApplePressAndHoldEnabled -bool false
+//defaults write com.visualstudio.code ApplePressAndHoldEnabled -bool false
+//defaults write com.obsidian ApplePressAndHoldEnabled -bool false
+defaults write -g InitialKeyRepeat -int 11 #blazing fast
+defaults write -g KeyRepeat -int 2 #Blazing fast - 1
 -- Have to restart after this
