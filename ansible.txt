@@ -28,8 +28,7 @@ brew install pipx
 pipx ensurepath
 sudo pipx ensurepath --global # optional to allow pipx actions with --global argument
 pipx install poetry
-
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" #Install OMZ
 brew tap microsoft/mssql-release https://github.com/Microsoft/homebrew-mssql-release
 brew install neovim
 HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
