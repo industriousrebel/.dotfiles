@@ -171,5 +171,15 @@
       "key": "cmd+i",
       "command": "-github.copilot.terminal.suggestCommand",
       "when": "terminalFocus"
+    },
+    {
+      "key": "cmd+z cmd+z",
+      "command": "workbench.action.toggleZenMode",
+      "when": "!isAuxiliaryWindowFocusedContext"
+    },
+    {
+      "key": "cmd+k z",
+      "command": "-workbench.action.toggleZenMode",
+      "when": "!isAuxiliaryWindowFocusedContext"
     }
 ]

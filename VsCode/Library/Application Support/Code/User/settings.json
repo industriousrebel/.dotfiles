@@ -10,7 +10,7 @@
     "terminal.external.osxExec": "kitty.app",
     "window.menuBarVisibility": "toggle",
     "python.dataScience.alwaysTrustNotebooks": true,
-    "terminal.integrated.shell.linux": "/bin/zsh", 
+    "terminal.integrated.shell.linux": "/bin/zsh",
     "window.zoomLevel": 1,
     "workbench.colorTheme": "Default High Contrast",
     "workbench.iconTheme": "vscode-icons",
@@ -611,5 +611,16 @@
     },
     "[jsonc]": {
       "editor.defaultFormatter": "vscode.json-language-features"
-    }
+    },
+    "vsicons.dontShowNewVersionMessage": true,
+    "sqltools.useNodeRuntime": true,
+    "sqltools.connections": [],
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "javascript.updateImportsOnFileMove.enabled": "always"
   }
