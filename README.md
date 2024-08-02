@@ -1,5 +1,6 @@
 OSX VSCODE NVIM setup.
 NeoVim LSP or commands are slowing down vscode otherwise it's a great setup.
+I use STOW for symbolic Links.
 
 | Type | Command | Explanation |
 | ---- | ---- | ---- |
