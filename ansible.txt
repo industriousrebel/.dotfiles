@@ -1,12 +1,8 @@
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 brew update
-brew install ansible
-#Below line needs to be dynamic
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/SaeedM/.zprofile\n    eval "$(/opt/homebrew/bin/brew shellenv)"\n
-brew install ansible
 brew install neovim
 brew install stow
-#brew install --cask visual-studio-code #Open Source ftw
+brew install --cask visual-studio-code #Open Source ftw
 brew install --cask rectangle
 brew install --cask obsidian
 brew install --cask dbeaver-community
@@ -32,7 +28,7 @@ HOMEBREW_ACCEPT_EULA=Y brew install msodbcsql17 mssql-tools
 sudo ln -s /opt/homebrew/etc/odbcinst.ini /etc/odbcinst.ini
 sudo ln -s /opt/homebrew/etc/odbc.ini /etc/odbc.ini
 
-#Run the below cmd to enable auto scroll in vscodium
+#Run the below cmd to enable auto scroll in vscode
 defaults write -g ApplePressAndHoldEnabled -bool false
 //defaults write com.visualstudio.code ApplePressAndHoldEnabled -bool false
 //defaults write com.obsidian ApplePressAndHoldEnabled -bool false
