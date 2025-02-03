@@ -9,6 +9,7 @@ brew install --cask rectangle
 brew install --cask obsidian
 brew install --cask dbeaver-community
 brew install --cask kitty
+brew install --cask chatgpt
 brew install rust
 brew install tree
 brew install pipx
