@@ -20,8 +20,8 @@ brew install --cask dbeaver-community
 brew install --cask kitty
 brew install --cask chatgpt
 brew install --cask linear-linear
-
-
+brew install --cask google-chrome
+brew install --cask tor-browser
 
 // Pipx and poetry
 brew install pipx
