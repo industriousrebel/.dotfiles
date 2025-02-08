@@ -12,6 +12,7 @@ brew install tmux
 brew install fzf
 brew install stow
 brew install pandoc
+brew install bitwarden
 
 brew install --cask visual-studio-code #Open Source ftw
 brew install --cask rectangle
