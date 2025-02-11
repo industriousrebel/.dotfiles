@@ -25,6 +25,7 @@ brew install --cask linear-linear
 brew install --cask google-chrome
 brew install --cask tor-browser
 brew install --cask discord
+brew install --cask zoom
 
 // Pipx and poetry
 brew install pipx
