@@ -15,6 +15,7 @@ brew install pandoc
 brew install bitwarden
 brew install ollama
 brew install gh
+brew install docker docker-compose
 
 brew install --cask visual-studio-code #Open Source ftw
 brew install --cask rectangle
