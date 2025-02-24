@@ -33,4 +33,8 @@ I use STOW for symbolic Links.
 | VSCode | cmd + b         | Toggle side bar.                                           |
 | VSCode | cmd + k + z     | Zen Mode                                                   |
 | VSCode | cmd+shift+b     | Toggle Activity bar                                        |
+| Obsidan | cmd+A     | Toggle Context menu or right click                                       |
+| Obsidian | cmd + 1/2/3     | change to numbered tab                                        |
+| Obsidian | cmd+t   | new tab                                       |
+| Obsidian | cmd+w   | close tab                                       |
 
