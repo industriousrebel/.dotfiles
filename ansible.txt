@@ -28,6 +28,7 @@ brew install --cask google-chrome
 brew install --cask tor-browser
 brew install --cask discord
 brew install --cask zoom
+brew install --cask bambu-studio
 
 // Pipx and poetry
 brew install pipx
